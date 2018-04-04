@@ -1,0 +1,27 @@
+#!/bin/bash
+# Adjust screen brightness with xrandr and crontab
+
+export DISPLAY=:0.0 # Crontab needs this
+
+H=$(date +%H)
+
+# Between 4AM and 18PM, full brightness
+if (( 4 <= 10#$H && 10#$H < 18 )); then
+  xrandr --output DVI-I-1 --brightness 1.0
+fi
+
+if (( 18 <= 10#$H && 10#$H < 19 )); then
+  xrandr --output DVI-I-1 --brightness 0.8
+fi
+
+if (( 19 <= 10#$H && 10#$H < 20 )); then
+  xrandr --output DVI-I-1 --brightness 0.6
+fi
+
+if (( 20 <= 10#$H && 10#$H < 21 )); then
+  xrandr --output DVI-I-1 --brightness 0.4
+fi
+
+if (( 21 <= 10#$H && 10#$H < 4 )); then
+  xrandr --output DVI-I-1 --brightness 0.2
+fi
