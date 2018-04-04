@@ -3,7 +3,7 @@
 
 function hidepage() {
   var div_elem = document.createElement('div');
-  div_elem.style.cssText = 'position:fixed;width:100%;height:100%;opacity:0.9;z-index:1000;background:#000';
+  div_elem.style.cssText = 'position: fixed; width: 100%; height: 100%; opacity: 0.9; z-index: 1000; background: #000';
   div_elem.id = "random_IO0_3279";
 
   var func = "function RMthisElement(){ document.getElementById('random_IO0_3279').remove(); }";
@@ -14,7 +14,7 @@ function hidepage() {
 
   var center_div = document.createElement('div');
   center_div.style.cssText = "font-size: xx-large; margin: 0; color: silver; top: 50%; left: 35%; position: absolute;"
-  center_div.innerHTML = "Slow life: Relax 10 seconds."
+  center_div.innerHTML = "Wait and relax 10 seconds. <br /> Take a deep breath."
 
   div_elem.appendChild(center_div);
   div_elem.appendChild(script_elem);
