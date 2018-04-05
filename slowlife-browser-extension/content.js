@@ -37,7 +37,7 @@ function hidepage() {
   script_elem.innerHTML = func + func_call;
 
   var center_div = document.createElement('div');
-  style = "font-size: xx-large; margin: 0; color: black; ";
+  style = "font-size: xx-large; margin: 0; color: black; font-family: sans-serif; ";
   center_div.style.cssText = style + "top: 50%; left: 35%; position: absolute;";
   text = "Wait and relax <span id='random_j25893567fwajA'>10</span> seconds. <br /> "
   text = text + "This tab must be visible or the counter stops. <br /> <br /> "
