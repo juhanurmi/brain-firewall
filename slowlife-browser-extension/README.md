@@ -2,7 +2,7 @@
 
 Adds 10 second delay before showing a web page.
 
-![alt text](https://raw.githubusercontent.com/juhanurmi/brain-firewall/slowlife-browser-extension/screenshot.png)
+![alt text](https://raw.githubusercontent.com/juhanurmi/brain-firewall/master/slowlife-browser-extension/screenshot.png)
 
 ## Things to add
 
