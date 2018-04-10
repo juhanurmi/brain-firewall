@@ -45,8 +45,8 @@ if( found_word_in_text ) {
 
 function hidepage() {
   var div_elem = document.createElement('div');
-  var style = 'position: fixed; width: 95%; height: 95%; opacity: 0.95; z-index: 10000; ';
-  style = style + 'background: repeating-linear-gradient( 45deg, transparent, transparent 40px, black 40px, orange 80px),';
+  var style = 'position: fixed; width: 95%; height: 95%; opacity: 0.90; z-index: 10000; ';
+  style = style + 'background: repeating-linear-gradient( 45deg, transparent, transparent 80px, black 80px, orange 160px),';
   style = style + ' linear-gradient(to bottom right, black, orange);';
   style = style + '-moz-box-shadow: 3px 3px 5px 6px grey; ';
   style = style + '-webkit-box-shadow: 3px 3px 5px 6px grey; ';
@@ -80,7 +80,7 @@ function hidepage() {
   script_elem.innerHTML = func + func_call;
 
   var center_div = document.createElement('div');
-  style = "font-size: xx-large; margin: 0; color: black; font-family: sans-serif; ";
+  style = "font-size: xx-large; margin: 0; color: silver; font-family: sans-serif; ";
   center_div.style.cssText = style + "top: 50%; left: 35%; position: absolute;";
   text = "Wait and relax <span id='random_j25893567fwajA'>10</span> seconds. <br /> "
   text = text + "This tab must be visible or the counter stops. <br /> <br /> "
