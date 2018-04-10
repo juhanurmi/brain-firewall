@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Options for delay time</title>
+	<script type="text/javascript" src="options.js"></script>
+</head>
+<body>
+	<h1>Browsing delay time</h1>
+	<select id="seconds">
+		<option value="1">1 seconds</option>
+		<option value="5">5 seconds</option>
+    <option value="10">10 seconds</option>
+		<option value="20">20 seconds</option>
+		<option value="30">30 seconds</option>
+    <option value="60">60 seconds</option>
+	</select>
+	<br />
+  <h2>Edit block words that multiple the delay</h2>
+  <p>Separate words with commas (,)</p>
+  <br />
+  <div style="border-style: solid; width: 50%" contenteditable="true" id="words"></div>
+  <br />
+	<button id="saveOptions">Save</button>
+	<br />
+	<button id="eraseOptions">Restore default</button>
+</body>
+</html>
