@@ -56,8 +56,8 @@ function find_harmfull_content() {
 
 function hidepage() {
   var div_elem = document.createElement('div');
-  var style = 'position: fixed; width: 95%; height: 95%; opacity: 0.90; z-index: 10000; ';
-  style = style + 'background: repeating-linear-gradient( 45deg, transparent, transparent 100px, black 100px, orange 200px),';
+  var style = 'position: fixed; width: 95%; height: 95%; opacity: 0.95; z-index: 10000; ';
+  style = style + 'background: repeating-linear-gradient( 45deg, transparent, transparent 15px, black 285px, orange 300px), ';
   style = style + ' linear-gradient(to bottom right, black, orange);';
   style = style + '-moz-box-shadow: 3px 3px 5px 6px grey; ';
   style = style + '-webkit-box-shadow: 3px 3px 5px 6px grey; ';
@@ -92,7 +92,7 @@ function hidepage() {
 
   var center_div = document.createElement('div');
   style = "font-size: xx-large; margin: 0; color: grey; font-family: sans-serif; background: black;";
-  center_div.style.cssText = style + "top: 30%; left: 40%; position: absolute;";
+  center_div.style.cssText = style + "top: 40%; left: 40%; position: absolute;";
   text = "Wait and relax <span id='random_j25893567fwajA'>" + WAIT_TIME + "</span> seconds <br /> "
   text = text + "This tab must be visible or the counter stops <br /> <br /> "
   text = text + "Take a deep breath"
