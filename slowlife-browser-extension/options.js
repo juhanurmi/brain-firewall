@@ -1,12 +1,12 @@
 // Default time is 10 seconds
 var defaultSeconds = 10;
 // These are just examples which words someone might want to block
-var finnish_harmful_keywords = ["uutiset", "sanomat", "lehti", "otsikot", "suosituimmat"];
-var news = ["headlines", "secrets", "gossip", "pop culture", "celebr", "scandal"];
-var funny = ["funny", "cats", "trump", "stupid", "epic", "failures", "owned", "comics", "idiot"];
-var nonsense = ["these people", "they say", "triggered", "warrior", "memes", "tweet"];
+var finnish_harmful_keywords = ["uutiset", "sanomat", "lehti", "otsikot", "suosituimmat", "muoti"];
+var news = ["headlines", "secrets", "gossip", "pop culture", "celebrities", "scandal", "sport news", "mass media"];
+var funny = ["funny", "cats", "trump", "stupid", "failures", "owned", "comics", "idiot"];
+var nonsense = ["these people", "they say", "triggered", "warrior", "memes", "tweeting", "retard"];
 var adult = ["porn", "penis", "pussy", "fucking", " sex ", "naked", "blowjob", "homemade"];
-var useless = ["entertainment", "commentary", "amazing", "most popular", "current events"];
+var useless = ["entertainment", "commentary", "amazing", "most popular", "current events", "leftist", "left-wing", "right-wing"];
 var defaultStopwords = finnish_harmful_keywords;
 var defaultStopwords = defaultStopwords.concat(news);
 var defaultStopwords = defaultStopwords.concat(funny);
